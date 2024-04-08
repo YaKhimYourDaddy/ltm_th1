@@ -1,0 +1,24 @@
+Yêu cầu:
+-viết bằng java, sử dụng datainputstream và dataoutputstream
+-cả server và client đều có giao diện dùng swing
+-giao tiếp 1 server với nhiều client, đa luồng
+
+1. Xây dựng chương trình hội thoại Client/Server hoạt động theo giao thức TCP/IP
+-Chương trình Server mở cổng và chờ nhận kết nối từ Client.
+-Client  gửi  một  chuỗi  ký  tự đến  Server.  Server  nhận và xử lý gửi  trả về cho client các công việc:
+    + In ra chuỗi đảo ngược của chuỗi đã cho
+    + Đổi chuỗi đã gửi thành chuỗi in hoa
+    + Đổi chuỗi đã gửi thành chuỗi thường
+    + Đổi các ký tự thường thành ký tự hoa và ngược lại
+    + Đếm số từ và các nguyên âm của chuỗi đã gửi
+
+2. Xây dựng chương trình hội thoại Client/Server hoạt động theo giao thức TCP/IP
+-Chương trình Client cho phép nhập vào từ bàn phím một chuỗi biễu diễn một phép tính gồm các toán tử +, -, (, ).
+Ví dụ:5+13-(12-4*6) –((3+4)-5)
+-Chương trình Server thực hiện tính toán và trả kết quả về cho Client.
+
+3. Xây dựng chương trình hội thoại chatroom Client/Server hoạt động theo giao thức TCP/IP
+-Chương trình Server mở cổng chờ nhận kết nối từ Client.
+-Chương trình Client kết nối và thực hiện trao đổi với chương trình Server.
+
+4. Xây dựng chương trình truy xuất cơ sở dữ liệu theo mô hình Client/Server sử dụng giao thức TCP/IP.
